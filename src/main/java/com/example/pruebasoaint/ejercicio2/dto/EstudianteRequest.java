@@ -24,7 +24,7 @@ public class EstudianteRequest {
 	@ApiModelProperty(notes = "estado activo o inactivo", example = "activo", required = true)
 	private String estado;
 	
-	@ApiModelProperty(notes = "Acudiente o acudientes que puede tener un estudiante", example = "activo", required = true)
+	//@ApiModelProperty(notes = "Acudiente o acudientes que puede tener un estudiante", example = "activo", required = true)
 	private List<AcudienteRequest> acudientes;
 
 	
